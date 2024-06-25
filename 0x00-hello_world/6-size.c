@@ -1,16 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - Entry
+ * main - Entry point of the program
  *
- * Return: Always return 0
+ * Return: Always return 0 if successful
  */
 
 int main(void)
 {
-	printf("size of char: %zu byte(s)\n", sizeof(char))'
-	printf("Size of short: %zu byte(s)\n", sizeof(short));
-	printf("Size of int: %zu byte(s)\n", sizeof(int));
-
+	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	printf("Size of an int: %zu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %zu bytez(s)\n", sizeof(long long int));
+	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 return (0);
-
 }
